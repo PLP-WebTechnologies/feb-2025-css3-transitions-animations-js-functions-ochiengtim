@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dynamic Animated Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="theme-toggle">
+    <button id="themeBtn" title="Toggle Theme"><i class="fas fa-adjust"></i></button>
+  </div>
+
+  <header class="hero">
+    <div class="overlay"></div>
+    <h1>VisionSpace </h1>
+    <p>Craft your digital identity. Save your style. Feel the vibe.</p>
+    <button id="animateBtn" class="btn pulse"> Animate My Space</button>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2> About This Site</h2>
+      <p>This site demonstrates advanced UI transitions, responsive CSS3 animations, and JavaScript-driven interactivity using persistent local storage.</p>
+    </section>
+
+    <section class="preferences">
+      <h2> Your Preferences</h2>
+      <input type="text" id="username" placeholder="Enter your name" />
+      <button id="saveBtn" class="btn"> Save Preference</button>
+      <div id="welcomeMsg"></div>
+    </section>
+
+    <section class="floating-zone">
+      <img src="https://media.giphy.com/media/l0MYt5jPR6QX5pnqM/giphy.gif" 
+           alt="Space Drone" 
+           class="floating-img" 
+           id="heroImage" />
+      <div id="animationBox" class="anim-box hidden"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 ochieng. Built by Tim</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
